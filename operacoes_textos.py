@@ -12,12 +12,21 @@ texto = "carro"
 #frase = 'Meu nome é ' \
 #        'Gustavo'
 # frase = 'Meu nome é \n Gustavo'
-frase = """
-    123456
-    Teste
-    ....
-Teste
-"""
+#frase = """
+#    123456
+#   Teste
+#    ....
+# Teste
+#"""
 
-print(frase)
+# frase = 'meu nome é Gustavo'
+frase = "Isso;é;uma;frase;de;teste"
+# print("gustavo" not in frase)
+# print(len(frase))
+# print(frase.lower())
+# print(frase.upper())
+# print(frase.capitalize())
+# print(dir(str))
+# print(frase.__len__())
+print(frase.split(';'))
 
