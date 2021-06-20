@@ -31,6 +31,7 @@ carrinho_compras = [
 
 print(carrinho_compras)
 
+
 def calcular_desconto(lista, funcao):
     for produto in lista:
         #print(produto['preco'])
@@ -38,4 +39,4 @@ def calcular_desconto(lista, funcao):
         print(item_desconto)
 
 
-calcular_desconto(carrinho_compras,somar)
+calcular_desconto(carrinho_compras,subtrair)
